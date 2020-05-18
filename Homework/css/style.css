@@ -1,0 +1,167 @@
+body {
+    width: 1280px;
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+header {
+    min-height: 323px;
+    background-color: #445161;
+    padding: 50px;
+}
+
+.header-left-block {
+    float: left;
+}
+
+.header-product-name {
+    font-size: 60px;
+    color: #ffffff;
+    display: block;
+    margin: 0 0 50px 0;
+}
+
+.header-list {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0 0 0 35px;
+    line-height: 36px;
+    list-style: none;
+}
+
+.header-list-item {
+    position: relative;
+}
+
+.header-list-item:before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 19px;
+    position: absolute;
+    top: 8px;
+    left: -35px;
+    background-image: url(/Homework/img/check-icon.png);
+    background-size: cover;
+}
+
+.header-img {
+    width: 469px;
+    height: 214px;
+    background: #ffffff;
+    float: right;
+}
+
+.about-product {
+    min-height: 345px;
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+.about-product-left-block {
+    float: left;
+    width: 649px;
+}
+
+.about-product-title {
+    color: #445161;
+    font-size: 30px;
+    display: block;
+    margin: 0 0 30px 0;
+}
+
+.about-product-text {
+    color: #333333;
+    font-size: 16px;
+    display: block;
+    margin: 0 0 20px 0;
+}
+
+.about-product-text:last-child {
+    margin: 0;
+}
+
+.about-product-img {
+    width: 430px;
+    height: 245px;
+    float: right;
+    background-color: #445161;
+}
+
+.dignityandpluses {
+    min-height: 417px;
+    background-color: #f5f5f5;
+    padding: 50px;
+}
+
+.section-title {
+    font-size: 30pt;
+    color: #445161;
+    text-align: center;
+    margin: 0 0 29px 0;
+}
+
+.dignity-point {
+    width: 567px;
+    display: inline-flex;
+    margin: 0 0 35px 0;
+}
+
+.dignity-point:nth-child(even) {
+    margin: 0 23px 0 0;
+}
+
+.dignity-point-img {
+    width: 20px;
+    height: 20px;
+    padding: 6px;
+    background-color: #445161;
+}
+
+.dignity-point-figcaption {
+    float: right;
+    padding: 0 0 0 9px;
+}
+
+.screenshots {
+    min-height: 487px;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.screenshots-figure {
+    display: inline-flex;
+    margin: 0 0 35px 0;
+    width: 574px;
+}
+
+.screenshots-figure:nth-child(even) {
+    margin: 0 16px 0 0;
+}
+
+.screenshots-img {
+    min-width: 200px;
+    min-height: 150px;
+    max-width: 200px;
+    max-height: 150px;
+    background-color: #445161;
+}
+
+.screenshots-figcaption {
+    float: right;
+    padding: 0 0 0 15px;
+}
+
+.figcaption-title {
+    color: #445161;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0 0 15px 0;
+}
+
+.figcaption-text {
+    font-size: 16px;
+    color: #333333;
+    margin: 0;
+}
