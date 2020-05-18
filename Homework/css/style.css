@@ -53,10 +53,13 @@ header {
     float: right;
 }
 
+section {
+    padding: 50px;
+}
+
 .about-product {
     min-height: 345px;
     background-color: #ffffff;
-    padding: 50px;
 }
 
 .about-product-left-block {
@@ -92,7 +95,6 @@ header {
 .dignityandpluses {
     min-height: 417px;
     background-color: #f5f5f5;
-    padding: 50px;
 }
 
 .section-title {
@@ -126,7 +128,6 @@ header {
 
 .screenshots {
     min-height: 487px;
-    padding: 50px;
     background-color: #ffffff;
 }
 
