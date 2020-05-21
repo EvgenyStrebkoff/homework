@@ -10,6 +10,13 @@ header {
     padding: 50px;
 }
 
+header:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
 .header-left-block {
     float: left;
 }
@@ -42,7 +49,7 @@ header {
     position: absolute;
     top: 8px;
     left: -35px;
-    background-image: url(/Homework/img/check-icon.png);
+    background-image: url(../img/check-icon.png);
     background-size: cover;
 }
 
@@ -60,6 +67,13 @@ section {
 .about-product {
     min-height: 300px;
     background-color: #ffffff;
+}
+
+.about-product:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
 }
 
 .about-product-left-block {
@@ -129,7 +143,7 @@ section {
 
 .dignity-list-item:nth-child(5),
 .dignity-list-item:nth-child(6) {
-    margin: 0 0 0px 0;
+    margin: 0;
 }
 
 .dignity-list-item:before {
@@ -156,21 +170,18 @@ section {
     width: 574px;
 }
 
-.screenshots-figure:nth-child(even) {
-    margin: 0 16px 0 0;
-}
-
 .screenshots-img {
     min-width: 200px;
     min-height: 150px;
     max-width: 200px;
     max-height: 150px;
+    margin: 0 15px 0 0;
     background-color: #445161;
 }
 
 .screenshots-figcaption {
     float: right;
-    padding: 0 0 0 15px;
+    padding: 0;
 }
 
 .figcaption-title {
