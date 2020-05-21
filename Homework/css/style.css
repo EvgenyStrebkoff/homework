@@ -58,7 +58,7 @@ section {
 }
 
 .about-product {
-    min-height: 345px;
+    min-height: 300px;
     background-color: #ffffff;
 }
 
@@ -93,7 +93,7 @@ section {
 }
 
 .dignityandpluses {
-    min-height: 417px;
+    min-height: 350px;
     background-color: #f5f5f5;
 }
 
@@ -104,26 +104,45 @@ section {
     margin: 0 0 29px 0;
 }
 
-.dignity-point {
-    width: 567px;
-    display: inline-flex;
+.dignity-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-position: outside;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    justify-content: center;
+    padding: 0;
+}
+
+.dignity-list-item {
+    width: 549px;
+    font-size: 16px;
+    line-height: 24px;
     margin: 0 0 35px 0;
+    padding: 0 0 0 41px;
+    position: relative;
 }
 
-.dignity-point:nth-child(even) {
-    margin: 0 23px 0 0;
+.dignity-list-item:nth-child(5),
+.dignity-list-item:nth-child(6) {
+    margin: 0 0 0px 0;
 }
 
-.dignity-point-img {
-    width: 20px;
-    height: 20px;
-    padding: 6px;
+.dignity-list-item:before {
+    position: absolute;
     background-color: #445161;
-}
-
-.dignity-point-figcaption {
-    float: right;
-    padding: 0 0 0 9px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    content: url(/Homework/img/plus-icon.png);
+    height: 32px;
+    width: 32px;
+    top: 0;
+    left: 0;
 }
 
 .screenshots {
