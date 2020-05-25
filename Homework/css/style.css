@@ -5,7 +5,6 @@ body {
 }
 
 header {
-    min-height: 323px;
     background-color: #445161;
     padding: 50px;
 }
@@ -54,8 +53,6 @@ header:after {
 }
 
 .header-img {
-    width: 469px;
-    height: 214px;
     background: #ffffff;
     float: right;
 }
@@ -65,7 +62,6 @@ section {
 }
 
 .about-product {
-    min-height: 300px;
     background-color: #ffffff;
 }
 
@@ -100,8 +96,6 @@ section {
 }
 
 .about-product-img {
-    width: 430px;
-    height: 245px;
     float: right;
     background-color: #445161;
 }
@@ -154,7 +148,7 @@ section {
     display: block;
     text-align: center;
     line-height: 40px;
-    content: url(/Homework/img/plus-icon.png);
+    content: url(../img/plus-icon.png);
     height: 32px;
     width: 32px;
     top: 0;
@@ -162,7 +156,6 @@ section {
 }
 
 .screenshots {
-    min-height: 487px;
     background-color: #ffffff;
 }
 
@@ -172,11 +165,18 @@ section {
     width: 574px;
 }
 
+.screenshots-figure:nth-child(3),
+.screenshots-figure:nth-child(4) {
+    margin: 0;
+}
+
 .screenshots-img {
+    /*
     min-width: 200px;
-    min-height: 150px;
-    max-width: 200px;
-    max-height: 150px;
+min-height: 150px;
+max-width: 200px;
+max-height: 150px;
+*/
     margin: 0 15px 0 0;
     background-color: #445161;
 }
@@ -184,6 +184,7 @@ section {
 .screenshots-figcaption {
     float: right;
     padding: 0;
+    width: 359px;
 }
 
 .figcaption-title {
@@ -214,6 +215,11 @@ section {
     width: 48%;
     display: flex;
     margin: 0 0 24px 0;
+}
+
+.reviews-item:nth-child(4),
+.reviews-item:nth-child(5) {
+    margin: 0;
 }
 
 .reviews-item-img {
@@ -278,8 +284,6 @@ section {
     background-color: #445161;
     border-radius: 5px;
     border: 1px solid #445161;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0 45px 0 0;
 }
@@ -289,21 +293,25 @@ section {
 }
 
 .buy-price-name {
+    display: block;
     font-size: 24px;
     line-height: 30px;
     text-align: center;
     color: #fff;
-    margin: 16px 0;
+    margin: 0;
+    padding: 16px;
+    box-sizing: border-box;
 }
 
 .buy-price-cost {
+    display: block;
     font-size: 40px;
     line-height: 30px;
     text-align: center;
     color: #445161;
     background-color: #fff;
     padding: 18px 0;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .buy-price-list {
@@ -330,4 +338,123 @@ section {
     margin: 0 auto 20px;
     outline: none;
     word-break: break-all;
+    font-weight: bold;
+}
+
+.buy-price-btn:hover {
+    color: #fff;
+    background-color: #445161;
+    border: 1px solid #fff;
+}
+
+.buy-price-btn:active {
+    color: #445161;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+footer {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #445161;
+}
+
+footer .section-title {
+    color: #fff;
+}
+
+.contacts-form {
+    width: 500px;
+    margin: 0;
+}
+
+.contacts-form-name {
+    width: 500px;
+    height: 40px;
+    margin: 0 auto 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #445162;
+    padding: 0 0 0 10px;
+    border: none;
+    text-transform: capitalize;
+    outline: none;
+}
+
+.contacts-form-email {
+    width: 500px;
+    height: 40px;
+    margin: 0 auto 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #445162;
+    padding: 0 0 0 10px;
+    border: none;
+    outline: none;
+}
+
+.contacts-form-textarea {
+    width: 500px;
+    height: 170px;
+    margin: 0 auto 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #445162;
+    padding: 13px 0 0 10px;
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+.contacts-form-btn {
+    display: block;
+    width: 140px;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #445161;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+    outline: none;
+}
+
+.contacts-form-btn:hover {
+    color: #fff;
+    background-color: #445161;
+    border: 1px solid #fff;
+}
+
+.contacts-form-btn:active {
+    color: #445161;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.contacts-links {
+    width: 240px;
+    margin: 0 45px;
+}
+
+.contacts-links-list {
+    margin: 0;
+}
+
+.copyright {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    color: #445161;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    padding: 0;
+    margin: 0;
 }
