@@ -104,6 +104,13 @@ section {
     background-color: #f5f5f5;
 }
 
+.dignityandpluses:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
 .section-title {
     display: block;
     width: 100%;
@@ -119,8 +126,6 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     list-style-position: outside;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0;
     justify-content: center;
@@ -156,6 +161,13 @@ section {
 
 .screenshots {
     background-color: #ffffff;
+}
+
+.screenshots:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
 }
 
 .screenshots-figure {
@@ -201,6 +213,13 @@ section {
     align-content: flex-start;
     justify-content: center;
     justify-content: space-between;
+}
+
+.reviews:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
 }
 
 .reviews-item {
@@ -268,6 +287,13 @@ section {
     justify-content: center;
     align-items: flex-end;
     flex-wrap: wrap;
+}
+
+.buy:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
 }
 
 .buy-price {
@@ -352,6 +378,13 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
     background-color: #445161;
+}
+
+footer:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
 }
 
 footer .section-title {
