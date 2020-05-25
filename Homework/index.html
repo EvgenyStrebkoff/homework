@@ -130,8 +130,8 @@
     <footer>
         <h2 class="section-title">Contacts</h2>
         <form action="#" class="contacts-form">
-            <input type="text" class="contacts-form-name" placeholder="Your name:">
-            <input type="email" name="" id="" class="contacts-form-email" placeholder="Your email:">
+            <input type="text" class="contacts-form-name" placeholder="Your name:" required pattern="\S+[А-яа-Я]">
+            <input type="email" name="" id="" class="contacts-form-email" placeholder="Your email:" required pattern="\S+@[a-z]+.[a-z]+">
             <textarea name="" id="" cols="30" rows="10" class="contacts-form-textarea" placeholder="Your message:"></textarea>
             <div>
                 <input type="submit" value="send" class="contacts-form-btn"> </div>
