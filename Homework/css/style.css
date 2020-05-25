@@ -437,6 +437,7 @@ footer .section-title {
 .contacts-form-btn {
     display: block;
     width: 140px;
+    height: 40px;
     font-size: 16px;
     line-height: 24px;
     text-transform: uppercase;
