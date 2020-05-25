@@ -469,6 +469,67 @@ footer .section-title {
 
 .contacts-links-list {
     margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    list-style-type: none;
+}
+
+.links-list-item {
+    padding: 0 0 0 29px;
+    position: relative;
+    margin: 0 0 18px 0;
+}
+
+.links-list-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.links-list-item a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.links-list-item:last-child {
+    margin: 0;
+}
+
+.links-list-item:nth-child(1)::before {
+    position: absolute;
+    content: url(../img/skype-icon.png);
+    width: 24px;
+    height: 26px;
+    top: 0;
+    left: 0;
+}
+
+.links-list-item:nth-child(2)::before {
+    position: absolute;
+    content: url(../img/icq-icon.png);
+    width: 24px;
+    height: 26px;
+    top: 0;
+    left: -1px;
+}
+
+.links-list-item:nth-child(3)::before {
+    position: absolute;
+    content: url(../img/email-icon.png);
+    width: 24px;
+    height: 26px;
+    top: 6px;
+    left: 0;
+}
+
+.links-list-item:nth-child(4)::before {
+    position: absolute;
+    content: url(../img/phone-icon.png);
+    width: 24px;
+    height: 26px;
+    top: 0;
+    left: 0;
 }
 
 .copyright {
