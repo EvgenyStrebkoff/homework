@@ -243,12 +243,15 @@ section {
 
 .reviews-item-cloud {
     width: 483px;
-    height: 121px;
     background-color: #ebebeb;
     border-radius: 10px;
+    box-sizing: border-box;
     padding: 16px 20px;
     position: relative;
     margin: 0 0 0 13px;
+    font-size: 14px;
+    line-height: 18px;
+    font-style: italic;
 }
 
 .reviews-item-cloud:before {
@@ -261,13 +264,8 @@ section {
     left: -26px;
 }
 
-.reviews-cloud-text {
-    font-size: 14px;
-    line-height: 18px;
-    font-style: italic;
-}
-
 .reviews-cloud-link {
+    display: block;
     font-size: 14px;
     line-height: 18px;
     color: #989898;
@@ -427,6 +425,7 @@ footer .section-title {
     margin: 0 auto 20px;
     border-radius: 5px;
     font-size: 16px;
+    font-family: Arial;;
     color: #445162;
     padding: 13px 0 0 10px;
     border: none;
@@ -464,7 +463,7 @@ footer .section-title {
 }
 
 .contacts-links {
-    width: 240px;
+    /*    width: 240px;*/
     margin: 0 45px;
 }
 
@@ -494,7 +493,7 @@ footer .section-title {
 }
 
 .links-list-item:last-child {
-    margin: 0;
+    margin: 0 0 32px 0;
 }
 
 .links-list-item:nth-child(1)::before {
@@ -569,6 +568,7 @@ footer .section-title {
 }
 
 .links-row-item:hover {
+
     filter: brightness(50%);
 }
 
