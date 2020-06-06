@@ -533,6 +533,45 @@ footer .section-title {
     left: 0;
 }
 
+.contacts-links-row {
+    height: 42px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.links-row-item {
+    width: 43px;
+    height: 42px;
+    display: block;
+    margin: 0 7.5px 0 0;
+    background-image: url(../img/social-buttons.png);
+}
+
+.links-row-item:nth-child(1) {
+    background-position: 0 0;
+}
+
+.links-row-item:nth-child(2) {
+    background-position: -49px 0;
+}
+
+.links-row-item:nth-child(3) {
+    background-position: -98px 0;
+}
+
+.links-row-item:nth-child(4) {
+    background-position: -148px 0;
+}
+
+.links-row-item:nth-child(5) {
+    background-position: -197px 0;
+    margin: 0;
+}
+
+.links-row-item:hover {
+    filter: brightness(50%);
+}
+
 .copyright {
     display: block;
     width: 100%;
